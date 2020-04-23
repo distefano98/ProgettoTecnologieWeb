@@ -19,16 +19,18 @@ body {
 
 .header__logo {
     
-    float:left;
+    float: left;
     display: block;
-    padding:20px;
+    margin-top: -0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
     text-decoration: none;
     
 }
 
 .header__logo__img{
-    width: auto;
-    height: auto;
+    width: 4em;
+    height: 4em;
     
 }
 
@@ -61,22 +63,25 @@ body {
     width: 100%;
     }
 
-    
+ .cover{
+    clear: left;
+    display: inline;
+}
  .footer{
      
-     
-     margin: 0;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
      border-top: 0.5px;
      border-top-style: solid;
      border-top-color: grey;
-        
     }
     
     
     .footer__menu{
     margin: 0;  
     padding: 0;
-    
         
     }
     
@@ -86,7 +91,6 @@ body {
     display: block;
     padding:20px;
     color: black;
-    
     
     }
   

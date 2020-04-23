@@ -19,7 +19,7 @@ Primo Commit di Chri
     <body>
         
         <header class="header ">
-            <a href="index.html" class="header__logo" > <img class="header__logo__img" src="">  </a>
+            <a href="main.php" class="header__logo" > <img class="header__logo__img" alt="logo" src="../UTILS/logo.png">  </a>
             
             <ul class="header__menu">
                 <li class="header__menu__item"> <a href="index.html"> HOME </a></li>
