@@ -30,8 +30,8 @@ Primo Commit di Chri
             
         </header>
         
-        <section class="cover">
-            <h1> titolo di prova </h1>
+        <section class="contenuto">
+           
         </section>
         
         
