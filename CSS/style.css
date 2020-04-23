@@ -32,11 +32,11 @@ body {
 }
 
 .header__menu{
-    
+    position: relative;
     margin: 0;
     padding: 0;
     float: right;
-    display: block;
+    display: inline-block;
     
 }
 
@@ -44,13 +44,16 @@ body {
     display: inline-block;
     
 }
+
 .header__menu__item a{
     font-style: italic;
     text-decoration: none;
     display: block;
-    padding:20px;
+    padding: 1em;
+    padding-bottom: 2em;
     color: black;
 }
+
 .header__menu__item a:hover{ 
     color: lightsteelblue;
 }
@@ -58,12 +61,11 @@ body {
 
 .contenuto{
     width: 100%;
-    }
-
- .cover{
     clear: left;
     display: inline;
 }
+
+
  .footer{
      
      position: absolute;
