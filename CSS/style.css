@@ -1,51 +1,46 @@
 html,body{height: 100%;}
 
-body { 
-    
-    background-image: url('../utils/img1.jpg');
-    
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F1F1F1;
 }
 
 .header {
+     background-color: #F1F1F1;
+     z-index: 100;
+     margin: 0;
+     padding : 0;
      width: 98vw;
      position: fixed;
-     margin: 0;
-     padding: 0;
-     border-bottom: 0.5px;
+     border-bottom: 1px;
      border-bottom-style: solid;
      border-bottom-color: grey;
+     
 }
 
 .header__logo {
-    position: absolute;
+    display: block;
     float: left;
-    margin-top: 0.1em;
-    margin-left: 0.5em;
-    margin-bottom: 0.5em;
     text-decoration: none;
     
 }
 
-.header__logo__img{
-    width: 50px;
-    height: 50px;
-}
 
 .header__menu{
-    position: relative;
+  
     margin: 0;
-    padding: 0;
-    float: right;
-    display: inline-block;
-    
+    padding: 20px;
+    float: right;  
 }
 
-.header__menu__item,.footer__menu__item {
+.header__menu__item{
     display: inline-block;
     
 }
 
 .header__menu__item a{
+   
     font-style: italic;
     text-decoration: none;
     display: block;
@@ -60,21 +55,25 @@ body {
 
 
 .contenuto{
-    width: 100%;
-    clear: left;
-    display: inline;
+    position: relative;
+  
+    background-image:  url("../UTILS/img1.jpg");
+    height: 100%;
+    background-size: cover;
+   -moz-background-size: cover;
+    background-position: center center;
 }
 
 
  .footer{
-     
+    
+     height: 11%;
      position: absolute;
      bottom: 0;
      left: 0;
-     width: 100vw;
-     border-top: 0.5px;
-     border-top-style: solid;
-     border-top-color: grey;
+     width: 100%;
+     background-color: #F1F1F1;
+     border-top: 0.5px solid gray;
     }
     
     
@@ -84,7 +83,10 @@ body {
         
     }
     
-   
+   .footer__menu__item {
+    display: inline-block;
+    
+   }
     .footer__menu__item a {
     text-decoration: none;
     display: block;
@@ -96,3 +98,4 @@ body {
     .footer__menu__item a:hover{ 
     color: lightsteelblue;
 }
+

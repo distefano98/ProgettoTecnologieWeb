@@ -8,7 +8,7 @@ and open the template in the editor.
 
 <html lang="it">
     <head>
-        <title> NOME CATALOGO </title>
+        <title> WLCC Technology </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../CSS/style.css" type="text/css" rel="stylesheet">   
@@ -18,7 +18,7 @@ and open the template in the editor.
     <body>
         
         <header class="header ">
-            <a href="main.php" class="header__logo" > <img class="header__logo__img" alt="logo" src="../UTILS/logo.png">  </a>
+            <a href="main.php" class="header__logo" > <img width="300" src="../UTILS/logo.png">  </a>
             
             <ul class="header__menu">
                 <li class="header__menu__item"> <a href="index.html"> HOME </a></li>
@@ -29,12 +29,12 @@ and open the template in the editor.
             
         </header>
         
-        <section class="contenuto">
-           
+        <section class="contenuto ">
+            
         </section>
         
         
-        <footer class="footer">
+        <footer class="footer ">
             <ul class="footer__menu">
                 <li class="footer__menu__item"> <a href=""> Home </a></li>
                 <li class="footer__menu__item"> <a href=""> Chi siamo</a></li>
