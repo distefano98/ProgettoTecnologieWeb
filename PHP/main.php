@@ -25,10 +25,10 @@ and open the template in the editor.
             <a href="main.php" class="header__logo" > <img width="300" src="../UTILS/logo.png">  </a>
             
             <ul class="header__menu">
-                <li class="header__menu__item"> <a href="index.html"> HOME </a></li>
+                <li class="header__menu__item"> <a href="main.php"> HOME </a></li>
                 <li class="header__menu__item"> <a href=""> CATALOGO </a></li>
-                <li class="header__menu__item"> <a href=""> CONTATTI </a></li>
-                <li class="header__menu__item"> <a href="accedi.html"> ACCEDI </a></li>
+                <li class="header__menu__item"> <a href="contatti.php"> CONTATTI </a></li>
+                <li class="header__menu__item"> <a href=""> ACCEDI </a></li>
             </ul>
             
         </header>
@@ -40,7 +40,7 @@ and open the template in the editor.
         
         <footer class="footer ">
             <ul class="footer__menu">
-                <li class="footer__menu__item"> <a href=""> Home </a></li>
+                <li class="footer__menu__item"> <a href="main.php"> Home </a></li>
                 <li class="footer__menu__item"> <a href=""> Chi siamo</a></li>
                 <li class="footer__menu__item"> <a href=""> Dove Siamo </a></li>
                 <li class="footer__menu__item"> <a href=""> Contattaci </a></li>
