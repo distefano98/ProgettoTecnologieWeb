@@ -10,7 +10,7 @@ and open the template in the editor.
     <head>
 
 
-        <title> Contatti </title>
+        <title> WLCC : Contatti </title>
 
 
         <meta charset="UTF-8">

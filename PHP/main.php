@@ -15,7 +15,8 @@ and open the template in the editor.
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../CSS/style.css" type="text/css" rel="stylesheet">   
+        <link href="../CSS/style.css" type="text/css" rel="stylesheet">  
+       
     </head>
    
     
@@ -33,12 +34,17 @@ and open the template in the editor.
             
         </header>
         
-        <section class="contenuto ">
+        <section class="cover">
            
-            <div class="contenuto_slider" >
+            <div class="cover_slider" >
+          
+                 <div class="cover_slider_item ">
+                 
+             
+            </div>
+            </div>
+          
             
-             </div>
-        
         </section>
         
         
