@@ -22,7 +22,7 @@ and open the template in the editor.
     <body>
         
         <header class="header ">
-            <a href="main.php" class="header__logo" > <img width="300" src="../UTILS/logo.png">  </a>
+            <a href="main.php" class="header__logo" > <img width="250" src="../UTILS/logo.png">  </a>
             
             <ul class="header__menu">
                 <li class="header__menu__item"> <a href="main.php"> HOME </a></li>
@@ -34,7 +34,11 @@ and open the template in the editor.
         </header>
         
         <section class="contenuto ">
+           
+            <div class="contenuto_slider" >
             
+             </div>
+        
         </section>
         
         
