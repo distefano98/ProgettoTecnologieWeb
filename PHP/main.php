@@ -36,7 +36,7 @@ and open the template in the editor.
         </header>
         
         <div class="cover">
-           
+            
             <div class="cover_slider" id="slide">
                
                 <img class="cover_slider_item" id="slide1" src="" alt="" />

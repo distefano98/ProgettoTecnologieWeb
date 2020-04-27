@@ -79,7 +79,7 @@
     function scritte(x,n){
      var testi = new Array(n);
      /* scrivere il testo che vuoi far apparire sulle foto */
-     testi[0] = "testo1";
+     testi[0] = "Migliaia di prodotti al miglior prezzo";
      testi[1] = "testo2";
      testi[2] = "testo3";
      testi[3] = "testo4";
