@@ -16,7 +16,8 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../CSS/style.css" type="text/css" rel="stylesheet">  
-       
+        <link href="../JS/slider.js"  type="text/javascript" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
    
     
@@ -36,16 +37,26 @@ and open the template in the editor.
         
         <div class="cover">
            
-            <div class="cover_item">
-                <h1> cover 1 </h1>
+            <div class="cover_slider" id="slide">
+               
+                <img class="cover_slider_item" id="slide1" src="" alt="" />
+                <img class="cover_slider_item" id="slide2" src="" alt="" /> 
+               
+                <p></p>
             </div>
+            <script src="../JS/slider.js"> </script>
+            <script>$(document).ready(function()
+                {     
+               slideshow(5,1000,4000);});
+
+            </script>
           
             
         </div>
         
         
         <footer class="footer ">
-            <ul class="footer__menu" style=" align-items:  center">
+            <ul class="footer__menu">
                 <li class="footer__menu__item"> <a href="main.php"> Home </a></li>
                 <li class="footer__menu__item"> <a href=""> Chi siamo</a></li>
                 <li class="footer__menu__item"> <a href=""> Dove Siamo </a></li>
