@@ -34,22 +34,18 @@ and open the template in the editor.
             
         </header>
         
-        <section class="cover">
+        <div class="cover">
            
-            <div class="cover_slider" >
-          
-                 <div class="cover_slider_item ">
-                 
-             
-            </div>
+            <div class="cover_item">
+                <h1> cover 1 </h1>
             </div>
           
             
-        </section>
+        </div>
         
         
         <footer class="footer ">
-            <ul class="footer__menu">
+            <ul class="footer__menu" style=" align-items:  center">
                 <li class="footer__menu__item"> <a href="main.php"> Home </a></li>
                 <li class="footer__menu__item"> <a href=""> Chi siamo</a></li>
                 <li class="footer__menu__item"> <a href=""> Dove Siamo </a></li>
