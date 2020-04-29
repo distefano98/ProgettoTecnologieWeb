@@ -80,9 +80,9 @@
      var testi = new Array(n);
      /* scrivere il testo che vuoi far apparire sulle foto */
      testi[0] = "Migliaia di prodotti al miglior prezzo";
-     testi[1] = "testo2";
-     testi[2] = "testo3";
-     testi[3] = "testo4";
+     testi[1] = "Luca";
+     testi[2] = "+";
+     testi[3] = "willy <3";
 
      
      return testi[x];
