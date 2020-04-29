@@ -46,18 +46,10 @@ body{background-color: #F1F1F1;}
     background-position: center center; 
     */
     box-sizing: border-box;
-    margin-top: 2vw;
+    /*margin-top: 2vw;*/
    
     }
-    
- /* ----------------------- COVER SLIDER  -------------------------------  */
-.cover_slider{position: relative;width: 60%;height: 50%;margin: auto;overflow: hidden;}
-
-.cover_slider_item{position:absolute;width: 100%;height: 100%;}
-.cover_slider p{width: 60%;height: 20%;display: block;color: black; 
-               position: relative;text-align: center;background-color:#F1F1F1;
-               opacity: 0.5; margin:auto;   }
-
+ 
 
 /* ---------------------------- FOOTER ---------------------------------  */
  .footer{

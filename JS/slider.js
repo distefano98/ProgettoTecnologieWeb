@@ -1,4 +1,3 @@
-
 /* Argomenti funzione: 
        n -> il numero totale di foto
        t1 -> il tempo in millisecondi di transizione
@@ -9,13 +8,13 @@
      var x = 0;
      var txt = 0;
      var stato = 1;
-    
-     $("#slide2").animate({"left":"100%"},0);
-      
-     $("#slide1").attr("src",fotografie(x,n));
+     $("#foto2").animate({"opacity":"0"},0);
+     $("#foto2").animate({"left":"100%"},0);
+          
+     $("#foto1").attr("src",fotografie(x,n));
      $("#slide p").html(scritte(txt,n));
      x++;
-     $("#slide2").attr("src",fotografie(x,n));
+     $("#foto2").attr("src",fotografie(x,n));
      
      /* eseguo l'intervallo dello slide */
      var intervallo = setInterval(function(){
@@ -25,7 +24,6 @@
        stato = cambiaSlide(x,n,stato,t1,txt);
      },t2);
     }
-
 /* Argomenti funzione: 
        x -> la foto che si sta visualizzando 
        n -> il numero totale di foto
@@ -34,38 +32,34 @@
        txt -> il testo che si sta visualizzando
 */ 
     function cambiaSlide(x,n,stato,t,txt){
-      if(stato===1){
-      var elemento1 = "#slide1";
-      var elemento2 = "#slide2";
+     if(stato===1){
+      var elemento1 = "#foto1";
+      var elemento2 = "#foto2";
      }else{
-      var elemento1 = "#slide2";
-      var elemento2 = "#slide1";
+      var elemento1 = "#foto2";
+      var elemento2 = "#foto1";
      }
      $(elemento2).animate({"left":"0px"},t);
      $(elemento1).animate({"left":"-100%"},t,function(){
       $("#slide p").html(scritte(txt,n));
-    
+      $(elemento1).animate({"opacity":"0"},0);
       $(elemento1).animate({"left":"100%"},0);
-      
+      $(elemento1).animate({"opacity":"1"},0,function(){
+        $(elemento1).attr("src",fotografie(x,n));        
+      });
      });
      
      if(stato===1){stato=0;}else{stato=1;}
      return stato;
     }
-    
-    
-    /*
-     Argomenti funzione:
-       x -> la foto che si sta visualizzando
-       n -> il numero totale di foto
-*/
+
     function fotografie(x,n){
      var foto = new Array(n);
      /* scrivere il path ed il nome delle foto che volere usare */
-     foto[0] = "../UTILS/prova1.jpg";
-     foto[1] = "../UTILS/prova2.jpg";
-     foto[2] = "../UTILS/contenuto_background.jpg";
-     foto[3] = "../UTILS/logo.png";
+     foto[0] = "../UTILS/foto1.jpg";
+     foto[1] = "../UTILS/foto2.jpg";
+     foto[2] = "../UTILS/foto3.jpg";
+     foto[3] = "../UTILS/foto4.jpg";
      
      
      return foto[x];
@@ -79,11 +73,11 @@
     function scritte(x,n){
      var testi = new Array(n);
      /* scrivere il testo che vuoi far apparire sulle foto */
-     testi[0] = "Migliaia di prodotti al miglior prezzo";
-     testi[1] = "Luca";
-     testi[2] = "+";
-     testi[3] = "willy <3";
-
+     testi[0] = "testo1";
+     testi[1] = "testo2";
+     testi[2] = "testo3";
+     testi[3] = "testo4";
+    
      
      return testi[x];
     }
