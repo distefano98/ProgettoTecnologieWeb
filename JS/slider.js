@@ -59,7 +59,7 @@
      foto[0] = "../UTILS/foto1.jpg";
      foto[1] = "../UTILS/foto2.jpg";
      foto[2] = "../UTILS/foto3.jpg";
-     foto[3] = "../UTILS/foto4.jpg";
+     foto[3] = "../UTILS/foto4.png";
      
      
      return foto[x];
@@ -73,10 +73,10 @@
     function scritte(x,n){
      var testi = new Array(n);
      /* scrivere il testo che vuoi far apparire sulle foto */
-     testi[0] = "testo1";
-     testi[1] = "testo2";
-     testi[2] = "testo3";
-     testi[3] = "testo4";
+     testi[0] = " UN CATALOGO RICCO DI PRODOTTI A TASSO ZERO E CONSEGNA GRATUITA ";
+     testi[1] = " SCONTI IMPERDIBILI ONLINE SU UNA SELEZIONE DI PRODOTTI! <br>REGISTRATI ORA  ";
+     testi[2] = "\" UN COMPUTER SU OGNI SCRIVANIA E IN OGNI CASA \" <br>  &#126BILL GATES ";
+     testi[3] = " WLCC TECHNOLOGY CONSEGNA DIRETTAMENTE A CASA TUA #TURESTAACASA";
     
      
      return testi[x];

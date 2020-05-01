@@ -1,4 +1,4 @@
-html,body{height: 100%;width: 100%;padding: 0;margin: 0;}
+html,body{height: 100%;padding: 0;margin: 0;}
 
 
 /* ---------------------------- BODY ---------------------------------  */
@@ -9,7 +9,7 @@ body{background-color: #F1F1F1;}
 
 /* ---------------------------- HEADER ---------------------------------  */
 .header {
-     float: left;
+    
      background-color: #F1F1F1;
      margin: 0;
      padding : 0;
@@ -33,19 +33,20 @@ body{background-color: #F1F1F1;}
 
 /* ---------------------------- COVER ---------------------------------  */
 .cover{
-    float: left;
+    background-color: #d6d6d6;
     clear: both;
     width: 100%;
-    position: relative;
     height: 100%;
-    background-size: cover;
+   
+  
+   
    /* !!!!!! IMMAGINE DI BACKGROUND
    background-image: url("../UTILS/contenuto_background.jpg");
     background-size: cover;
    -moz-background-size: cover;
     background-position: center center; 
     */
-    box-sizing: border-box;
+   
     /*margin-top: 2vw;*/
    
     }
@@ -57,13 +58,23 @@ body{background-color: #F1F1F1;}
      width: 100%;
      background-color: #F1F1F1;
      border-top: 0.5px solid gray;
+     
+     
     }
    
-    .footer__menu{width: 50%;margin: auto;}
+   .footer__menu{width: 100%;text-align: center;margin: auto;padding: 0;}
     
-   .footer__menu__item {margin: auto;display: inline-block;}
+   .footer__menu__item {width: 20%;display: inline-block;margin: auto;}
     
-   .footer__menu__item a {text-decoration: none;display: block;padding: 2vw;color: black;}
+   .footer__menu__item a {text-decoration: none;display: block;color: black;font-size:x-large;}
   
    .footer__menu__item a:hover{color: lightsteelblue;}
+   
+   .footer__menu__item ul{width: 20%;position: absolute;padding: 0;display: block;}
+   
+   .footer__menu__item ul li{list-style: none;margin:auto;}
+  
+   .footer__menu__item ul li a { padding: 0;display: block;font-size: medium; text-align: center;}
+
+   
 
